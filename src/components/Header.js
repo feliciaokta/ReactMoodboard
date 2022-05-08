@@ -129,7 +129,7 @@ const SearchBarWrapper = styled.div`
   border-radius: 50px;
   border: none;
   padding-left: 10px;
-  padding-right: 15px;
+  margin-right: 10px;
 
   form {
     display: flex;
@@ -148,6 +148,10 @@ const SearchBarWrapper = styled.div`
     display: none;
   }
 `
+// TODO:
+// media query for icons & searchbar
+// when screen is 768px and above, searchbar margin right is 0 and padding right is 10px
+// when screen is phone-sized, icons on the right will move into the dropdown
 
 const IconsWrapper = styled.div`
   margin-left: 10px;
